@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T21:37:04 IST" name="Suite" finished-at="2023-02-04T21:37:46 IST" duration-ms="41870">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T21:37:04 IST" name="Test" finished-at="2023-02-04T21:37:46 IST" duration-ms="41870">
+      <class name="testClasses.VerifyUserCanLogin">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff]" started-at="2023-02-04T21:37:04 IST" name="beforeclass" finished-at="2023-02-04T21:37:04 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff]" started-at="2023-02-04T21:37:04 IST" name="beforemethod" finished-at="2023-02-04T21:37:20 IST" duration-ms="16597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyUserCanLogin(java.lang.String,java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff]" started-at="2023-02-04T21:37:20 IST" name="VerifyUserCanLogin" data-provider="TestData" finished-at="2023-02-04T21:37:28 IST" duration-ms="7894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9665365300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shri4474#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff]" started-at="2023-02-04T21:37:28 IST" name="aftermethod" finished-at="2023-02-04T21:37:28 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogin status=SUCCESS method=VerifyUserCanLogin.VerifyUserCanLogin(java.lang.String,java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testClasses.VerifyUserCanLogin@793f29ff]" started-at="2023-02-04T21:37:28 IST" name="afterclass" finished-at="2023-02-04T21:37:30 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testClasses.VerifyUserCanLogin -->
+      <class name="testClasses.VerifyUserCanHaveListOfOptions">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582]" started-at="2023-02-04T21:37:30 IST" name="beforeclass" finished-at="2023-02-04T21:37:41 IST" duration-ms="11686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582]" started-at="2023-02-04T21:37:41 IST" name="beforemethod" finished-at="2023-02-04T21:37:42 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyUserCanHaveListOfOptions()[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582]" started-at="2023-02-04T21:37:42 IST" name="VerifyUserCanHaveListOfOptions" finished-at="2023-02-04T21:37:44 IST" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanHaveListOfOptions -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582]" started-at="2023-02-04T21:37:44 IST" name="aftermethod" finished-at="2023-02-04T21:37:44 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanHaveListOfOptions status=SUCCESS method=VerifyUserCanHaveListOfOptions.VerifyUserCanHaveListOfOptions()[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testClasses.VerifyUserCanHaveListOfOptions@202b0582]" started-at="2023-02-04T21:37:44 IST" name="afterclass" finished-at="2023-02-04T21:37:46 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testClasses.VerifyUserCanHaveListOfOptions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
